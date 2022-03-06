@@ -24,26 +24,9 @@
         }
 
         a {
-            color: #232264;
+            color: #000000;
             text-decoration: none;
         }
-
-        nav a:hover
-        {
-            color: #5351f6;
-            font-weight: bolder;
-
-        }
-
-        main a
-        {
-            color: #000000;
-        } 
-
-        main a:hover
-        {
-            color: #5351f6;
-        } 
 
         main h1
         {
@@ -102,20 +85,42 @@
             letter-spacing: 0.02em;
         }
 
+        nav div
+        {
+            width: 350px; 
+            text-align: center;
+        }
+
+        nav div:hover
+        {
+            width: 350px; 
+            text-align: center;
+
+            background: rgba(255, 255, 255, 0.3);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);      
+            font-weight: bold;
+        }
+
         main
         {
             margin-left: 350px;
             padding: 10px;
         }
 
+        a div:hover
+        {
+            background: rgba(255, 255, 255, 0.5);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);    
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="https://www.youtube.com/channel/UCSN9o31eDdD3bV8GQsP1LDQ" target="_blank">YouTube</a>
-        <a href="https://github.com/VidDoingCode" target="_blank">GitHub</a>
+        <a href="index.html"><div>Home</div> </a>
+        <a href="https://www.youtube.com/channel/UCSN9o31eDdD3bV8GQsP1LDQ" target="_blank"><div>YouTube</div></a>
+        <a href="https://github.com/VidDoingCode" target="_blank"><div>GitHub</div></a>
     </nav>
-    
 </body>
 </html>
